@@ -1,0 +1,13 @@
+package awesomepackage;
+syntax = "proto3";
+ 
+message AwesomeMessage {
+    string awesome_field = 1; // becomes awesomeField
+    Types type = 2;
+}
+
+enum Types {
+    A = 0x00;
+    B = 0x01;
+    C = 0x02;
+}
